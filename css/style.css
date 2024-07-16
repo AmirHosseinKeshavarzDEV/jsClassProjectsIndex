@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
+*::selection{
+  background-color: #ffd000;
+  color: #000;
+}
 body {
   margin: 0;
   padding: 0;
