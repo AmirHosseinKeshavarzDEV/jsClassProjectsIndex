@@ -159,6 +159,7 @@ main {
         }
         > img {
           width: 300px;
+          height: 150px;
           border-radius: 10px;
           margin-top: 21px;
         }
@@ -187,6 +188,7 @@ main {
         }
         p {
           text-align: center;
+          color: #777777;
         }
         .button {
           position: relative;
