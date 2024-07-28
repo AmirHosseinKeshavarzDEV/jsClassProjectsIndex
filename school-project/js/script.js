@@ -6,6 +6,7 @@ let school = {
     {
       Name: "Class A",
       Teacher: "Mr.khateri",
+      TA:"Mr.Heydari",
       students: [
         {
           Name: "Alex",
@@ -13,6 +14,40 @@ let school = {
           Address: "bu/85",
           Phone: "8658740567",
           Score: 18,
+          termReview: [
+            {
+              TermNumber: "1",
+              TermGrade: 17,
+              teacherReview: [
+                {
+                  teacherName: "Mr khateri",
+                  Review: "Good",
+                  grade: 16.9,
+                },
+                {
+                  teacherName: "MR HEYDARI",
+                  Review: "Nice",
+                  grade: 17,
+                },
+              ],
+            },
+            {
+              TermNumber: "2",
+              TermGrade: 19,
+              teacherReview: [
+                {
+                  teacherName: "Mr khateri",
+                  Review: "Excellent",
+                  grade: 18.5,
+                },
+                {
+                  teacherName: "MR HEYDARI",
+                  Review: "amazing",
+                  grade: 19,
+                },
+              ],
+            },
+          ],
         },
         {
           Name: "Amer",
@@ -20,6 +55,40 @@ let school = {
           Address: "bu/67",
           Phone: "94879048",
           Score: 20,
+          termReview: [
+            {
+              TermNumber: 1,
+              TermGrade: 15,
+              teacherReview: [
+                {
+                  teacherName: "Mr khateri",
+                  Review: "soso",
+                  grade: 14,
+                },
+                {
+                  teacherName: "Mr heydari",
+                  Review: "acceptable",
+                  grade: 15,
+                },
+              ],
+            },
+            {
+              TermNumber: 2,
+              TermGrade: 19,
+              teacherReview: [
+                {
+                  teacherName: "Mr Khateri",
+                  Review: "Nice",
+                  grade: 18.75,
+                },
+                {
+                  teacherName: "Mr heydari",
+                  Review: "Very good",
+                  grade: 19,
+                },
+              ],
+            },
+          ],
         },
       ],
     },
