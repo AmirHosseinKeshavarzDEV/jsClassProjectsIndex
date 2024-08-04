@@ -11,16 +11,22 @@ let entranceB = parseInt(prompt("Enter Second Number:"));
 // show math operation in log console
 
 // show Total
-console.log("Total:", entranceA + entranceB);
+console.log(`Total: ${entranceA} + ${entranceB} =`, entranceA + entranceB);
 
 // show subtraction
-console.log("subtraction:", entranceA - entranceB);
+console.log(
+  `subtraction: ${entranceA} - ${entranceB} =`,
+  entranceA - entranceB
+);
 
 // show multiplication
-console.log("multiplication:", entranceA * entranceB);
+console.log(
+  `multiplication: ${entranceA} * ${entranceB} =`,
+  entranceA * entranceB
+);
 
 // show division
-console.log("division:", entranceA / entranceB);
+console.log(`division: ${entranceA} / ${entranceB} =`, entranceA / entranceB);
 
 // show difference
-console.log("difference:", entranceA % entranceB);
+console.log(`difference: ${entranceA} % ${entranceB} =`, entranceA % entranceB);
